@@ -1,0 +1,61 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#data {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#data input {
+    padding: 10px;
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+button {
+    width: 190px;
+    margin-left: 1px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #fec106;
+    margin: 20px auto;
+    font-family: arial;
+    width: 70%;
+    max-width: 500px;
+}
+
+table th, td {
+    border: 1px solid #fec108;
+}
+
+table th {
+    text-align: center;
+    background: #fec108;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+table td {
+    text-align: left;
+    background: #392b6f;
+    color: white;
+    padding: 20px;
+}
+
+table .orange {
+    background: #e8ae31;
+}
+
+
+
+
